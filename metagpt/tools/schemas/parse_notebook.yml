@@ -1,0 +1,10 @@
+type: class
+description: ''
+methods:
+  read_notebook:
+    type: function
+    description: 'Parse the content of a Jupyter notebook file and return the cell
+      content, without including any outputs from code cells. '
+    signature: '(self, notebook_path: str) -> list'
+    parameters: 'Args: notebook_path (str): The path of the Jupyter notebook file.
+      Returns: list: The content of each cell in the notebook, with outputs excluded.'
